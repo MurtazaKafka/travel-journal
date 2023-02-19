@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: .7rem;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background-color: #F55A5A;
+    text-align: center;
+    padding: .2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: .65rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav > h4 {
+    color: white;
+}
+
+section {
+    margin: 2rem 2rem 0 2rem;
+}
+
+.trip--img {
+    max-width: 10rem;
+    object-fit: cover;
+    height: 13rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.trip--item {
+    display: flex;
+    gap: .8rem;
+}
+
+.location-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.location-details > a {
+    color: #918E9B;
+    font-size: .7rem;
+}
+
+.location-details > h5 {
+    margin-right: 1.4rem;
+    margin-left: .3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 1px;
+}
+
+.trip--details {
+    margin-top: .85rem;
+}
+
+.trip--details > h1 {
+    margin: 0 0 1rem 0;
+    padding-top: 0;
+    /* background-color: blue; */
+}
+
+.trip--date {
+    display: flex;
+    gap: 4px;
+    font-weight: bolder;
+}
+
+.trip--description {
+    margin-top: 0;
+}
